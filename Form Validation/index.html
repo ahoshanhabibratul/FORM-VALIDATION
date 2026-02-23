@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <style>
+        .error{
+            color: red;
+        }
+        input{
+            display: block;
+            margin-bottom: 10px;
+            padding: 10px;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Registration From</h1>
+    <form action="" onsubmit="return validateform()">
+        <input type="text" id="name" placeholder="Enter Your Full Neme">
+        <span id="nameError" class="error"></span>
+
+        <input type="email" id="email" placeholder="Enter Your Email">
+        <span id="emailError" class="error"></span>
+
+        <input type="tel" id="phone" placeholder="Enter Phone Number">
+        <span id="phoneError" class="error"></span>
+
+        <input type="password" id="password" placeholder="Enter Password">
+        <span id="passwordError" class="error"></span>
+
+        <button type="submit">Submit</button>
+    </form>
+
+
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
